@@ -72,5 +72,5 @@
   }
 }
 
-@media (30em <= width <= 80em) {
+@media only screen and (min-width: 320px) and (max-width: 479px) {
 }
