@@ -3,7 +3,7 @@
   width: 100%;
   font-size: medium;
   position: relative;
-  text-align: justify;
+  text-align: center;
   border-bottom: 1px solid #f8fafc1c;
 }
 .cards {
@@ -92,7 +92,7 @@
   }
 
   .card {
-    width: 110%;
+    width: 100%;
     gap: 3rem;
   }
 
@@ -101,9 +101,19 @@
     height: 250px;
   }
   .event__note {
-    width: 110%;
+    width: 100%;
     padding-inline: 3rem;
     display: flex;
     flex-direction: column;
+  }
+
+  .card__right {
+    min-width: 240px;
+  }
+  .note {
+    font-size: larger;
+
+    align-self: center;
+    justify-self: center;
   }
 }
