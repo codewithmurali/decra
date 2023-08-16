@@ -93,11 +93,12 @@
 
   .card {
     width: 100%;
+    padding: 2rem;
     gap: 3rem;
   }
 
   .card__left > img {
-    width: 250px;
+    width: 232px;
     height: 250px;
   }
   .event__note {
@@ -108,7 +109,7 @@
   }
 
   .card__right {
-    min-width: 240px;
+    min-width: 200px;
   }
   .note {
     font-size: larger;
