@@ -1,0 +1,38 @@
+.about {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+.card {
+  height: fit-content;
+  text-align: justify;
+  width: 80%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.description {
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  word-spacing: 5px;
+}
+
+@media (30em <= width <= 80em) {
+  .about {
+    min-height: 140vh;
+    margin-block: 4rem;
+  }
+  .card {
+    padding: 2rem;
+  }
+}

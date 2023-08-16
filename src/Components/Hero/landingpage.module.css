@@ -1,0 +1,76 @@
+.landingpage {
+  width: 100%;
+  height: 100vh;
+}
+.video_bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+}
+.gradient__text {
+  font-family: sans-serif;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.636);
+  font-weight: 900;
+  letter-spacing: -1px;
+  font-size: clamp(40px, 6.4vw, 100px);
+  background: linear-gradient(
+    90deg,
+    rgb(247, 4, 77),
+    #6402f6,
+    rgb(32, 184, 240)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  animation: animated_text 10s ease-in-out infinite;
+  -moz-animation: animated_text 10s ease-in-out infinite;
+  -webkit-animation: animated_text 10s ease-in-out infinite;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.sub__title {
+  font-family: Poppins;
+  font-size: clamp(25px, 5vw, 60px);
+  color: aliceblue;
+}
+
+@keyframes animated_text {
+  0% {
+    background-position: 0px 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0px 50%;
+  }
+}
+
+@media (30em <= width <= 80em) {
+}

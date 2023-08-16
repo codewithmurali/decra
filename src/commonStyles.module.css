@@ -1,0 +1,26 @@
+.outer__layout {
+  padding-inline: 12rem;
+}
+.title {
+  text-align: center;
+  font-size: 28px;
+  justify-self: start;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+}
+.common__card {
+  color: #5e6b7f;
+  background-color: #1e293b65;
+  border: solid 1px rgba(192, 192, 192, 0.394);
+  backdrop-filter: blur(60px);
+  border-radius: 8px;
+  box-shadow: 0px 0px 24px 8px rgba(44, 44, 127, 0.508);
+  font-family: "Poppins";
+}
+
+@media (30em <= width <= 80em) {
+  .outer__layout {
+    padding-inline: 1.5rem;
+  }
+}
