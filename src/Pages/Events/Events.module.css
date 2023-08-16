@@ -103,7 +103,7 @@
   }
   .event__note {
     width: 100%;
-    padding-inline: 3rem;
+    padding-inline: 4rem;
     display: flex;
     flex-direction: column;
   }
@@ -113,7 +113,6 @@
   }
   .note {
     font-size: larger;
-
     align-self: center;
     justify-self: center;
   }
