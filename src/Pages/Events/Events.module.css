@@ -182,7 +182,7 @@ a > p {
   }
   a > p {
     position: absolute;
-    font-size: medium;
+    font-size: small;
     top: 0.6em;
     right: 3rem;
   }
