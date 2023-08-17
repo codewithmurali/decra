@@ -189,9 +189,6 @@ a > p {
   .submit:hover > img {
     left: 8rem;
     right: 0;
-  }
-  .submit:active > img {
-    left: 8rem;
-    right: 0;
+    transition-timing-function: ease-in-out;
   }
 }
