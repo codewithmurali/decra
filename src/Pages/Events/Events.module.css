@@ -137,7 +137,7 @@ a > p {
   position: absolute;
   transition: 1s;
   left: 13rem;
-  right: 1rem;
+  right: 0;
 }
 .submit:hover > p {
   position: absolute;
@@ -178,6 +178,11 @@ a > p {
   }
 
   .submit {
-    width: 90%;
+    width: 110%;
+  }
+  a > p {
+    position: absolute;
+    top: 0.6em;
+    right: 3rem;
   }
 }
