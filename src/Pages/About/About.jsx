@@ -4,7 +4,7 @@ import styles from "./About.module.css";
 
 const About = () => {
   return (
-    <div className={`${commonStyles.outer__layout} ${styles.about}`}>
+    <div className={`${commonStyles.outer__layout} ${styles.about}`} id="about">
       <div className={`${styles.card} ${commonStyles.common__card}`}>
         <h2 className={commonStyles.title}>About us</h2>
         <div className={styles.description}>

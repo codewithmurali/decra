@@ -4,7 +4,7 @@ import styles from "./landingpage.module.css";
 
 const Landingpage = () => {
   return (
-    <div className={`${styles.landingpage} `}>
+    <div className={`${styles.landingpage} `} id="home">
       <div className={styles.overlay}></div>
       <video src={hero} autoPlay muted loop className={styles.video_bg} />
       <div className={styles.content}>
