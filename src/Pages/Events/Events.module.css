@@ -183,7 +183,7 @@ a > p {
   a > p {
     position: absolute;
     font-size: small;
-    top: 0.75rem;
+    top: 0.6rem;
     right: 1.4rem;
   }
   .submit:hover > img {
