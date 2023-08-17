@@ -88,4 +88,15 @@ ul:last-child {
     width: 70vw;
     height: max-content;
   }
+  .navbar > ul {
+    width: 100%;
+
+    margin: auto;
+  }
+  .navbar > ul li {
+    width: 15%;
+    margin: auto;
+    margin-bottom: 0.25rem;
+    text-align: center;
+  }
 }
