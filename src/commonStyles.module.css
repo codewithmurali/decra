@@ -2,13 +2,30 @@
   padding-inline: 12rem;
 }
 .title {
+  position: relative;
+  width: fit-content;
+  margin: auto;
   text-align: center;
   font-size: 28px;
+  padding: 2px;
   justify-self: start;
   font-weight: 800;
   text-transform: uppercase;
   color: #fff;
+  border-bottom: 0.5px solid rgba(192, 192, 192, 0.394);
 }
+.title::after {
+  position: absolute;
+  content: " ";
+  width: 30px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50px;
+  bottom: -10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .common__card {
   color: #5e6b7f;
   background-color: #1e293b65;
