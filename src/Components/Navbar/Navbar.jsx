@@ -10,7 +10,9 @@ const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const blurElement = document.getElementById("blur");
-
+  scroller.addEventListener("scroll", (event) => {
+    output.textContent = `scrollTop: ${scroller.scrollTop}`;
+  });
   return (
     <div
       className={`${styles.navbar} ${commonStyles.outer__layout} `}
