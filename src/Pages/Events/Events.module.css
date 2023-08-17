@@ -186,9 +186,12 @@ a > p {
     top: 0.6em;
     right: 1.3rem;
   }
-  .submit:active,
   .submit:hover > img {
-    left: 5rem;
+    left: 8rem;
+    right: 0;
+  }
+  .submit:active > img {
+    left: 8rem;
     right: 0;
   }
 }
