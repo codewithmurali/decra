@@ -178,10 +178,11 @@ a > p {
   }
 
   .submit {
-    width: 115%;
+    width: 120%;
   }
   a > p {
     position: absolute;
+    font-size: medium;
     top: 0.6em;
     right: 3rem;
   }
