@@ -86,9 +86,7 @@
 .note_content {
   width: fit-content;
 }
-ul {
-  list-style: none;
-}
+
 a {
   position: relative;
 }
@@ -107,7 +105,7 @@ a > p {
   top: 0.6em;
   right: 4rem;
 }
-.container li ::marker {
+li::marker {
   color: rgb(0, 229, 255);
 }
 .submit {
@@ -180,7 +178,7 @@ a > p {
     position: absolute;
     font-size: small;
     top: 0.5rem;
-    right: 1.5rem;
+    right: 30%;
   }
   .submit:hover > img {
     left: 55%;
