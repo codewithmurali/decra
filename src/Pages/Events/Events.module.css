@@ -183,10 +183,10 @@ a > p {
   a > p {
     position: absolute;
     font-size: small;
-    top: 0.6rem;
-    right: 1.4rem;
+    top: 0.5rem;
+    right: 1.5rem;
   }
-  .submit:hover > img {
+  .submit:active > img {
     left: 80%;
     right: 0;
     transition-timing-function: ease-in-out;

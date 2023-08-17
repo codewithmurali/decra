@@ -11,8 +11,6 @@ const Navbar = () => {
 
   const blurElement = document.getElementById("blur");
 
-  const scroller = document.querySelector("body");
-
   return (
     <div
       className={`${styles.navbar} ${commonStyles.outer__layout} `}
