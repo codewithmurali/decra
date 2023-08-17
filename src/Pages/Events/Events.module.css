@@ -181,7 +181,7 @@ li::marker {
     right: 15%;
   }
   .submit:hover > img {
-    left: 55%;
+    left: 65%;
     right: 0;
     transition-timing-function: ease-in-out;
   }
