@@ -107,13 +107,8 @@ a > p {
   top: 0.6em;
   right: 4rem;
 }
-.container li ::before {
-  content: " lnjbvjuv";
-  background-color: rgb(0, 229, 255);
-  display: inline-block;
-  width: 0.5em;
-  height: 0.5em;
-  border-radius: 50%;
+.container li ::marker {
+  color: rgb(0, 229, 255);
 }
 .submit {
   width: 70%;
@@ -180,5 +175,9 @@ a > p {
     font-size: larger;
     align-self: center;
     justify-self: center;
+  }
+
+  .submit {
+    width: 90%;
   }
 }
