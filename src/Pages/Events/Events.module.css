@@ -182,7 +182,7 @@ a > p {
     top: 0.5rem;
     right: 1.5rem;
   }
-  .submit:active > img {
+  .submit:hover > img {
     left: 55%;
     right: 0;
     transition-timing-function: ease-in-out;
