@@ -183,7 +183,7 @@ a > p {
     right: 1.5rem;
   }
   .submit:active > img {
-    left: 80%;
+    left: 55%;
     right: 0;
     transition-timing-function: ease-in-out;
   }
