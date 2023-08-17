@@ -2,6 +2,7 @@ import React from "react";
 import timelineElements from "../../consts/TimelineElements";
 import styles from "./Events.module.css";
 import commonStyles from "../../commonStyles.module.css";
+import send from "../../assets/send.svg";
 const Events = () => {
   return (
     <div
@@ -24,14 +25,23 @@ const Events = () => {
                 {element.topics || element.subEvents ? (
                   <ul className={styles.container}>
                     {element.topics?.map((item) => (
-                      <li className="event">{item}</li>
+                      <li className={styles.subEvent}>{item}</li>
                     ))}
                     {element.subEvents?.map((item) => (
-                      <li className="subEvent">{item}</li>
+                      <li className={styles.subEvent}>{item}</li>
                     ))}
                   </ul>
                 ) : null}
                 <p className="description">{element.Description}</p>
+                {element.id == 1 && (
+                  <a
+                    href="mailto: tekclusterece18@gmail.com"
+                    className={styles.submit}
+                  >
+                    <img src={send} alt="send a mail" />
+                    <p>Send Your Idea</p>
+                  </a>
+                )}
               </div>
             </div>
           );

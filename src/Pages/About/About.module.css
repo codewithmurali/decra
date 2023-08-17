@@ -5,7 +5,7 @@
 }
 .card {
   height: fit-content;
-  text-align: justify;
+  text-align: left;
   width: 80%;
   padding: 3rem;
   display: flex;
@@ -25,6 +25,7 @@
   font-size: 14px;
   letter-spacing: 0.6px;
   word-spacing: 5px;
+  color: #98aac5ce;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 720px) {

@@ -38,11 +38,13 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  color: #98aac5;
+  color: #98aac5de;
   background-color: #1e293b65;
   border-radius: 8px;
   backdrop-filter: blur(20px);
-  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5), -8px -8px 20px #354f7565;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5), -8px -8px 20px #354f7565,
+    inset 0.2em 0.2em 0.4em #354f7565,
+    inset -0.2em -0.2em 0.4em rgba(0, 0, 0, 0.5);
 }
 .card__right > .subtitle {
   color: rgb(0, 229, 255);
@@ -53,6 +55,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
+  line-height: 2.2rem;
 }
 .event__note {
   padding: 1rem;
@@ -68,8 +71,8 @@
   justify-content: center;
   gap: 1em;
 }
-.event__note li {
-  line-height: 2rem;
+.event__note {
+  line-height: 2.5rem;
 }
 .note {
   color: rgb(244, 114, 182);
@@ -82,6 +85,68 @@
 }
 .note_content {
   width: fit-content;
+}
+ul {
+  list-style: none;
+}
+a {
+  position: relative;
+}
+a > img {
+  position: absolute;
+  width: 25px !important;
+  height: 25px !important;
+  padding-block: 2px;
+  padding-inline: 5px;
+  left: 1.5rem;
+  top: 0.3rem;
+}
+
+a > p {
+  position: absolute;
+  top: 0.6em;
+  right: 4rem;
+}
+.container li ::before {
+  content: " lnjbvjuv";
+  background-color: rgb(0, 229, 255);
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+}
+.submit {
+  width: 70%;
+  height: 35px;
+  color: #98aac5;
+  border: 0.5px solid rgba(192, 192, 192, 0.33);
+  border-radius: 16px;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 1.3em;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5), -8px -8px 20px #354f7565,
+    inset 0.2em 0.2em 0.4em #354f7565,
+    inset -0.2em -0.2em 0.4em rgba(0, 0, 0, 0.5);
+  transition: 0.4s;
+}
+
+.submit:hover {
+  color: aliceblue;
+  border: 1px solid #98aac5;
+  box-shadow: 0.2em 0.2em 0.4em #354f7565,
+    -0.2em -0.2em 0.4em rgba(0, 0, 0, 0.5),
+    inset 8px 8px 20px rgba(0, 0, 0, 0.5), inset -8px -8px 20px #354f7565;
+}
+
+.submit:hover > img {
+  position: absolute;
+  transition: 1s;
+  left: 13rem;
+  right: 1rem;
+}
+.submit:hover > p {
+  position: absolute;
+  transition: 5s;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 720px) {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
 import logo from "../../assets/kncet.png";
 import commonStyles from "../../commonStyles.module.css";
@@ -7,9 +7,17 @@ import menu from "../../assets/menu.svg";
 
 const Navbar = () => {
   const [menuClick, setMenuClick] = useState(true);
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  const blurElement = document.getElementById("blur");
+
+  const scroller = document.querySelector("body");
 
   return (
-    <div className={`${styles.navbar} ${commonStyles.outer__layout} `}>
+    <div
+      className={`${styles.navbar} ${commonStyles.outer__layout} `}
+      id="blur"
+    >
       <img className={styles.navbar__logo} src={logo} />
       <img
         src={menu}

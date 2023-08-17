@@ -22,6 +22,10 @@
 }
 .menu__bar {
   display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  cursor: pointer;
 }
 .navbar__item {
   font-size: medium;
@@ -67,7 +71,13 @@ ul:last-child {
   .menu__bar {
     display: block;
     color: azure;
-    cursor: pointer;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: start;
+  }
+  .nav_container {
+    align-self: center;
   }
   .menu_click {
     position: absolute;
