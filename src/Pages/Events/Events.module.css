@@ -178,7 +178,7 @@ li::marker {
     position: absolute;
     font-size: small;
     top: 0.5rem;
-    right: 20%;
+    right: 15%;
   }
   .submit:hover > img {
     left: 55%;
