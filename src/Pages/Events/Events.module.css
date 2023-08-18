@@ -192,6 +192,7 @@ li::marker {
   .event__note {
     width: 90%;
     padding-inline: 4rem;
+    font-size: medium;
     display: flex;
     flex-direction: column;
   }
