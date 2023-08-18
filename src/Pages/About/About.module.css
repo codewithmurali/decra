@@ -29,9 +29,28 @@
   color: #98aac5ce;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 720px) {
+@media only screen and (min-width: 300px) and (max-width: 550px) {
   .about {
-    min-height: 165vh;
+    min-height: 160vh;
+    padding-block: 3rem;
+  }
+  .card {
+    padding: 2rem;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 780px) {
+  .about {
+    min-height: 110vh;
+    padding-block: 2rem;
+  }
+  .card {
+    padding: 2rem;
+  }
+}
+@media only screen and (min-width: 780px) and (max-width: 1080px) {
+  .about {
+    min-height: 100vh;
     padding-block: 3rem;
   }
   .card {
