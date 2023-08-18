@@ -218,6 +218,7 @@ li::marker {
     font-size: medium;
   }
   .submit a {
+    margin-left: 5px;
     font-size: small;
   }
 
