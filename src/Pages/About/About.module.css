@@ -1,7 +1,8 @@
 .about {
   width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   position: relative;
+  border-bottom: 1px solid #f8fafc1c;
 }
 .card {
   height: fit-content;
@@ -30,9 +31,8 @@
 
 @media only screen and (min-width: 300px) and (max-width: 720px) {
   .about {
-    min-height: 130vh;
-    margin-top: 4rem;
-    margin-bottom: 6rem;
+    min-height: 180vh;
+    padding-block: 50rem;
   }
   .card {
     padding: 2rem;

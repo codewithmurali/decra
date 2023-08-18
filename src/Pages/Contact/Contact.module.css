@@ -9,10 +9,11 @@
 }
 .title {
   color: rgb(0, 229, 255);
+  font-size: 1.5rem;
 }
 .name {
   color: aliceblue;
-  margin-block: 10px;
+  margin-block: 12px;
 }
 .num {
   color: rgb(244, 114, 182);

@@ -1,5 +1,5 @@
 .Events {
-  padding-block: 2rem;
+  padding-block: 4rem;
   width: 100%;
   font-size: medium;
   position: relative;
@@ -85,10 +85,16 @@
   transform: translateY(-2px);
   margin-right: 25px;
 }
-.note_content {
+.note_content > li {
   width: fit-content;
+  font-size: large;
 }
 
+.note_content a {
+  color: rgb(64, 176, 245);
+  text-decoration: none;
+  font-size: larger;
+}
 .submit {
   position: relative;
   background-color: transparent;
@@ -146,13 +152,12 @@ li::marker {
 
 @media only screen and (min-width: 320px) and (max-width: 720px) {
   .Events {
-    width: 80%;
+    width: 100%;
     margin: auto;
-    padding-inline: 10px;
   }
 
   .card {
-    width: 100%;
+    width: 82%;
     padding: 2rem;
     gap: 3rem;
   }
@@ -162,7 +167,7 @@ li::marker {
     height: 250px;
   }
   .event__note {
-    width: 100%;
+    width: 82%;
     padding-inline: 4rem;
     display: flex;
     flex-direction: column;
