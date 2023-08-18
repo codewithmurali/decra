@@ -216,15 +216,16 @@ li::marker {
     text-align: center;
     font-size: medium;
     font-size: medium;
+    justify-content: space-between;
   }
   .submit a {
     font-size: small;
   }
 
   .submit img {
-    left: 1rem;
+    left: 0.5rem;
   }
   .submit:hover img {
-    left: 1rem;
+    left: 0.5 rem;
   }
 }
