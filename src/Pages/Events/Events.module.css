@@ -222,6 +222,6 @@ li::marker {
   }
 
   .submit:hover img {
-    left: 1rem;
+    left: 0.5rem;
   }
 }
