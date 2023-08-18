@@ -90,7 +90,7 @@ ul:last-child {
   }
   .navbar > ul {
     width: 100%;
-
+    text-align: center;
     margin: auto;
   }
   .navbar > ul li {

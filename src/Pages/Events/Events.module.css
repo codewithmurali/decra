@@ -173,7 +173,7 @@ li::marker {
   left: 10.8rem;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 720px) {
+@media only screen and (min-width: 300px) and (max-width: 720px) {
   .Events {
     width: 100%;
     margin: auto;
@@ -192,9 +192,12 @@ li::marker {
   .event__note {
     width: 90%;
     padding-inline: 3rem;
-    font-size: small;
+    font-size: medium;
     display: flex;
     flex-direction: column;
+  }
+  .note_content {
+    font-size: 0.9rem;
   }
 
   .card__right {
