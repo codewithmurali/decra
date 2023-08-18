@@ -43,6 +43,7 @@
   .about {
     min-height: 110vh;
     padding-block: 2rem;
+    padding-bottom: 5rem;
   }
   .card {
     padding: 2rem;
