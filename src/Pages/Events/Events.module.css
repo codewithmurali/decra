@@ -177,12 +177,10 @@ li::marker {
   a > p {
     position: absolute;
     font-size: small;
-    top: 0.5rem;
-    right: 15%;
+    padding-inline: 5rem;
+    top: 0.7rem;
   }
   .submit:hover > img {
-    left: 65%;
-    right: 0;
-    transition-timing-function: ease-in-out;
+    left: 1.5rem;
   }
 }
