@@ -197,7 +197,7 @@ li::marker {
     flex-direction: column;
   }
   .note_content {
-    font-size: small;
+    font-size: 16px;
   }
 
   .card__right {
