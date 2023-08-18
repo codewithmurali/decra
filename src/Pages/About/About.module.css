@@ -32,7 +32,7 @@
 @media only screen and (min-width: 300px) and (max-width: 720px) {
   .about {
     min-height: 180vh;
-    padding-block: 50rem;
+    padding-block: 40rem;
   }
   .card {
     padding: 2rem;
