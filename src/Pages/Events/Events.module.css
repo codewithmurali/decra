@@ -1,5 +1,5 @@
 .Events {
-  padding-block: 0rem;
+  padding-block: 3rem;
   width: 100%;
   font-size: medium;
   position: relative;
@@ -177,11 +177,10 @@ li::marker {
   .Events {
     width: 100%;
     margin: auto;
-    margin-top: 3rem;
   }
 
   .card {
-    width: 82%;
+    width: 85%;
     padding: 2rem;
     gap: 3rem;
   }
