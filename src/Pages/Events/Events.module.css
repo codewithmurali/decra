@@ -191,8 +191,8 @@ li::marker {
   }
   .event__note {
     width: 90%;
-    padding-inline: 4rem;
-    font-size: medium;
+    padding-inline: 3rem;
+    font-size: small;
     display: flex;
     flex-direction: column;
   }
@@ -212,8 +212,11 @@ li::marker {
     font-size: medium;
     font-size: medium;
   }
+  .submit a {
+    font-size: small;
+  }
 
   .submit:hover img {
-    left: 1.5rem;
+    left: 1rem;
   }
 }
