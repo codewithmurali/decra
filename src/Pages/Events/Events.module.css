@@ -123,6 +123,7 @@
   background-color: transparent;
   text-align: center;
   display: flex;
+  gap: 25px;
   justify-content: space-evenly;
 }
 .submit img {
@@ -197,7 +198,7 @@ li::marker {
     flex-direction: column;
   }
   .note_content {
-    font-size: 16px;
+    font-size: small;
   }
 
   .card__right {
@@ -211,6 +212,7 @@ li::marker {
 
   .submit {
     width: 120%;
+    gap: 10px;
     text-align: center;
     font-size: medium;
     font-size: medium;
