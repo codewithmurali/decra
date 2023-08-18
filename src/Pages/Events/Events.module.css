@@ -180,7 +180,7 @@ li::marker {
   }
 
   .card {
-    width: 85%;
+    width: 90%;
     padding: 2rem;
     gap: 3rem;
   }
@@ -190,7 +190,7 @@ li::marker {
     height: 250px;
   }
   .event__note {
-    width: 85%;
+    width: 90%;
     padding-inline: 4rem;
     display: flex;
     flex-direction: column;
