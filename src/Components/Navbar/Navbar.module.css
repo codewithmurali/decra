@@ -94,7 +94,7 @@ ul:last-child {
     margin: auto;
   }
   .navbar > ul li {
-    width: 15%;
+    width: 50%;
     margin: auto;
     margin-bottom: 0.25rem;
     text-align: center;
