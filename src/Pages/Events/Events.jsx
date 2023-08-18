@@ -34,13 +34,12 @@ const Events = () => {
                 ) : null}
                 <p className="description">{element.Description}</p>
                 {element.id == 1 && (
-                  <a
-                    href="mailto: tekclusterece18@gmail.com"
-                    className={styles.submit}
-                  >
+                  <div className={styles.submit}>
                     <img src={send} alt="send a mail" />
-                    <p>Send Your Idea</p>
-                  </a>
+                    <a href="mailto: tekclusterece18@gmail.com">
+                      Send Your Idea
+                    </a>
+                  </div>
                 )}
               </div>
             </div>

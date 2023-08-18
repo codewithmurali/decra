@@ -48,6 +48,8 @@
 }
 .card__right > .subtitle {
   color: rgb(0, 229, 255);
+  letter-spacing: 1px;
+  word-spacing: 2px;
 }
 .card__right > ul,
 .note_content > ul {
@@ -87,10 +89,14 @@
   width: fit-content;
 }
 
-a {
+.submit {
   position: relative;
+  background-color: transparent;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
-a > img {
+.submit img {
   position: absolute;
   width: 25px !important;
   height: 25px !important;
@@ -100,30 +106,30 @@ a > img {
   top: 0.3rem;
 }
 
-a > p {
-  position: absolute;
-  top: 0.6em;
-  right: 4rem;
-}
 li::marker {
   color: rgb(0, 229, 255);
 }
 .submit {
   width: 70%;
   height: 35px;
-  color: #98aac5;
   border: 0.5px solid rgba(192, 192, 192, 0.33);
   border-radius: 16px;
   text-decoration: none;
-  padding: 5px;
+  padding: 7px;
   border-radius: 1.3em;
   box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5), -8px -8px 20px #354f7565,
     inset 0.2em 0.2em 0.4em #354f7565,
     inset -0.2em -0.2em 0.4em rgba(0, 0, 0, 0.5);
   transition: 0.4s;
 }
+.submit a {
+  width: fit-content;
+  text-decoration: none;
+  color: #98aac5;
+}
 
-.submit:hover {
+.submit:hover,
+.submit:active {
   color: aliceblue;
   border: 1px solid #98aac5;
   box-shadow: 0.2em 0.2em 0.4em #354f7565,
@@ -131,7 +137,7 @@ li::marker {
     inset 8px 8px 20px rgba(0, 0, 0, 0.5), inset -8px -8px 20px #354f7565;
 }
 
-.submit:hover > img {
+.submit:hover img {
   position: absolute;
   transition: 1s;
   left: 13rem;
@@ -173,15 +179,10 @@ li::marker {
 
   .submit {
     width: 120%;
+    text-align: center;
   }
-  a > p {
-    position: absolute;
-    font-size: small;
-    padding: auto;
-    top: 0.5rem;
-    right: 15%;
-  }
-  .submit:hover > img {
+
+  .submit:hover img {
     left: 1.5rem;
   }
 }
