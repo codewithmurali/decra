@@ -190,7 +190,7 @@ li::marker {
     height: 250px;
   }
   .event__note {
-    width: 82%;
+    width: 85%;
     padding-inline: 4rem;
     display: flex;
     flex-direction: column;
@@ -208,6 +208,7 @@ li::marker {
   .submit {
     width: 120%;
     text-align: center;
+    font-size: medium;
     font-size: medium;
   }
 
