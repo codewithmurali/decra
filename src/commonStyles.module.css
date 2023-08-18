@@ -6,22 +6,38 @@
   width: fit-content;
   margin: auto;
   text-align: center;
-  font-size: 28px;
-  padding: 2px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 6px 24px;
   justify-self: start;
   font-weight: 800;
+  border-radius: 50px;
   text-transform: uppercase;
-  color: #fff;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5), -4px -4px 14px #354f7565;
+  background: linear-gradient(90deg, rgb(247, 4, 77), rgb(32, 184, 240));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-size: 300%;
+  animation: animated_text 10s ease-in-out infinite;
+  -moz-animation: animated_text 10s ease-in-out infinite;
+  -webkit-animation: animated_text 10s ease-in-out infinite;
   border-bottom: 0.5px solid rgba(192, 192, 192, 0.394);
 }
 .title::after {
   position: absolute;
   content: " ";
-  width: 30px;
-  height: 10px;
-  background-color: rgb(248, 7, 75);
+  width: 40px;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    rgb(247, 4, 77),
+    #6402f6,
+    rgb(32, 184, 240)
+  );
   border-radius: 50px;
-  bottom: -10px;
+  bottom: -4px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -39,5 +55,17 @@
 @media only screen and (min-width: 320px) and (max-width: 720px) {
   .outer__layout {
     padding-inline: 1.5rem;
+  }
+}
+
+@keyframes animated_text {
+  0% {
+    background-position: 0px 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0px 50%;
   }
 }
