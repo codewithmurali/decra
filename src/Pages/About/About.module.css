@@ -5,7 +5,7 @@
 }
 .card {
   height: fit-content;
-  text-align: left;
+  text-align: justify;
   width: 80%;
   padding: 3rem;
   display: flex;
