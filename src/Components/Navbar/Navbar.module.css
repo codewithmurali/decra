@@ -17,6 +17,7 @@
 .nav_container {
   display: flex;
   gap: 20px;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
@@ -98,5 +99,11 @@ ul:last-child {
     margin: auto;
     margin-bottom: 0.25rem;
     text-align: center;
+  }
+}
+@media only screen and (min-width: 720px) {
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
   }
 }
