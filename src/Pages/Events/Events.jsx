@@ -22,6 +22,11 @@ const Events = () => {
               </div>
               <div className={styles.card__right}>
                 <h3 className={styles.subtitle}>{element.title}</h3>
+                <div className={styles.addition__information}>
+                  <h5 className={styles.genere}>{element.genere}</h5>
+                  <h5 className={styles.schedule}>{element.schedule}</h5>
+                </div>
+
                 {element.topics || element.subEvents ? (
                   <ul className={styles.container}>
                     {element.topics?.map((item) => (

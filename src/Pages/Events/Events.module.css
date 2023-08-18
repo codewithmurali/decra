@@ -1,5 +1,5 @@
 .Events {
-  padding-block: 4rem;
+  padding-block: 0rem;
   width: 100%;
   font-size: medium;
   position: relative;
@@ -46,6 +46,29 @@
     inset 0.2em 0.2em 0.4em #354f7565,
     inset -0.2em -0.2em 0.4em rgba(0, 0, 0, 0.5);
 }
+.addition__information {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  gap: 15px;
+  justify-content: space-evenly;
+}
+
+.schedule,
+.genere {
+  text-transform: uppercase;
+  background-color: #f8fafc1c;
+  height: fit-content;
+  border-radius: 50px;
+  padding-block: 3px;
+  padding-inline: 0.8rem;
+  font-size: x-small;
+  font-weight: 400;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5), -5px -5px 15px #354f7565,
+    inset 0.2em 0.2em 0.4em #354f7565,
+    inset -0.2em -0.2em 0.4em rgba(0, 0, 0, 0.5);
+}
+
 .card__right > .subtitle {
   color: rgb(0, 229, 255);
   letter-spacing: 1px;
@@ -130,6 +153,7 @@ li::marker {
 }
 .submit a {
   width: fit-content;
+  text-align: center;
   text-decoration: none;
   color: #98aac5;
 }
