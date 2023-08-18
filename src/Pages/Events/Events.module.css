@@ -221,7 +221,10 @@ li::marker {
     font-size: small;
   }
 
+  .submit img {
+    left: 1rem;
+  }
   .submit:hover img {
-    left: 0.5rem;
+    left: 1rem;
   }
 }
