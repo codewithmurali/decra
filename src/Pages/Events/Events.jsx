@@ -42,7 +42,7 @@ const Events = () => {
                   <div className={styles.submit}>
                     <img src={send} alt="send a mail" />
                     <a href="mailto: tekclusterece18@gmail.com">
-                      Send Your Idea
+                      Send Your Abstract
                     </a>
                   </div>
                 )}
@@ -72,7 +72,7 @@ const Events = () => {
                 one other technical event.
               </li>
               <li>
-                Send Your Papers to this Mail ID :{" "}
+                Send Your Abstract Idea to this Mail ID :{" "}
                 <a href="mailto: tekclusterece18@gmail.com">
                   tekclusterece18@gmail.com
                 </a>
