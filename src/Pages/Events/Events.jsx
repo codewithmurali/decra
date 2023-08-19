@@ -53,7 +53,7 @@ const Events = () => {
                       </a>
                     </div>
 
-                    <div className={styles.submit}>
+                    <div className={`${styles.submit} ${styles.download} `}>
                       <a href={abstract} download>
                         Download Abstract Format
                       </a>

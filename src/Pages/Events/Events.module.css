@@ -140,7 +140,7 @@ li::marker {
   color: rgb(0, 229, 255);
 }
 .submit {
-  width: fit-content;
+  width: 85%;
   height: 35px;
   border: 0.5px solid rgba(192, 192, 192, 0.33);
   border-radius: 16px;
@@ -151,7 +151,17 @@ li::marker {
     inset 0.2em 0.2em 0.4em #354f7565,
     inset -0.2em -0.2em 0.4em rgba(0, 0, 0, 0.5);
   transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.download {
+  width: 105%;
+}
+.download img {
+  left: 0.8rem;
+}
+
 .submit a {
   width: fit-content;
   text-align: center;
@@ -219,12 +229,10 @@ li::marker {
     font-size: medium;
   }
   .submit a {
-    margin-left: 5px;
-    padding-top: 5px;
     font-size: x-small;
   }
 
-  .submit .send {
+  .submit .img {
     left: 0.8rem;
   }
   .submit:hover img {
