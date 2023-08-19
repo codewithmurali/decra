@@ -1,6 +1,7 @@
 import React from "react";
 import timelineElements from "../../consts/TimelineElements";
 import styles from "./Events.module.css";
+import downloadIcon from "../../assets/download.svg";
 import abstract from "../../../public/Tekcluster_abstract_format.docx";
 import commonStyles from "../../commonStyles.module.css";
 import send from "../../assets/send.svg";
@@ -42,14 +43,25 @@ const Events = () => {
                 {element.id == 1 && (
                   <>
                     <div className={styles.submit}>
-                      <img src={send} alt="send a mail" />
+                      <img
+                        className={styles.send}
+                        src={send}
+                        alt="send a mail"
+                      />
                       <a href="mailto: tekclusterece18@gmail.com">
                         Send Your Abstract
                       </a>
                     </div>
-                    <a className={styles.download} href={abstract} download>
-                      Abstract Format
-                    </a>
+
+                    <div className={styles.submit}>
+                      <a href={abstract} download>
+                        Abstract Format
+                      </a>
+                      <img
+                        src={downloadIcon}
+                        alt="Download an abstract format"
+                      />
+                    </div>
                   </>
                 )}
               </div>

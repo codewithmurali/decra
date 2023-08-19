@@ -132,7 +132,7 @@
   height: 25px !important;
   padding-block: 2px;
   padding-inline: 5px;
-  left: 1.5rem;
+  left: 1.2rem;
   top: 0.3rem;
 }
 
@@ -168,7 +168,7 @@ li::marker {
     inset 8px 8px 20px rgba(0, 0, 0, 0.5), inset -8px -8px 20px #354f7565;
 }
 
-.submit:hover img {
+.submit:hover .send {
   position: absolute;
   transition: 0.6s;
   left: 13rem;
@@ -224,7 +224,7 @@ li::marker {
     font-size: x-small;
   }
 
-  .submit img {
+  .submit .send {
     left: 0.8rem;
   }
   .submit:hover img {
