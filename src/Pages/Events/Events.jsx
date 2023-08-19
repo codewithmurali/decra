@@ -58,6 +58,7 @@ const Events = () => {
                         Download Abstract Format
                       </a>
                       <img
+                        className={styles.downloadIcon}
                         src={downloadIcon}
                         alt="Download an abstract format"
                       />

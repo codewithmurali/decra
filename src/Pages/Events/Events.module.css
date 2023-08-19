@@ -129,7 +129,7 @@
 .submit img {
   position: absolute;
   width: 25px !important;
-  height: fit-content !important;
+  height: 25px !important;
   padding-block: 2px;
   padding-inline: 5px;
   left: 1.2rem;
@@ -140,7 +140,7 @@ li::marker {
   color: rgb(0, 229, 255);
 }
 .submit {
-  width: 85%;
+  width: fit-content;
   height: 35px;
   border: 0.5px solid rgba(192, 192, 192, 0.33);
   border-radius: 16px;
