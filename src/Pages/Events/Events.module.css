@@ -129,7 +129,7 @@
 .submit img {
   position: absolute;
   width: 25px !important;
-  height: 25px !important;
+  height: fit-content !important;
   padding-block: 2px;
   padding-inline: 5px;
   left: 1.2rem;

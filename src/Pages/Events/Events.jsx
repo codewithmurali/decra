@@ -55,7 +55,7 @@ const Events = () => {
 
                     <div className={styles.submit}>
                       <a href={abstract} download>
-                        Abstract Format
+                        Download Abstract Format
                       </a>
                       <img
                         src={downloadIcon}
