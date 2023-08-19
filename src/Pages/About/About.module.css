@@ -31,7 +31,7 @@
 
 @media only screen and (min-width: 300px) and (max-width: 550px) {
   .about {
-    min-height: 155;
+    min-height: 155vh;
     padding-block: 3rem;
   }
   .card {
