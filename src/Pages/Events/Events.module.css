@@ -220,6 +220,7 @@ li::marker {
   }
   .submit a {
     margin-left: 5px;
+    padding-top: 5px;
     font-size: x-small;
   }
 
