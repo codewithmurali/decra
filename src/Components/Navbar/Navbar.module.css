@@ -10,9 +10,9 @@
   top: 0%;
   z-index: 1;
 }
-.navbar > img {
+.navbar img {
   width: auto;
-  height: 48px;
+  height: 42px;
 }
 .nav_container {
   display: flex;
