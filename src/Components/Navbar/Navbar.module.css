@@ -1,5 +1,5 @@
 .navbar {
-  position: fixed;
+  position: sticky;
   padding-block: 8px;
   display: flex;
   justify-content: space-between;
