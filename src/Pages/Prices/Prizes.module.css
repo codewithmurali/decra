@@ -124,6 +124,7 @@
   transform: translateY(-2px);
 }
 .prize__note ul {
+  width: 100%;
   padding: 5px;
   margin-right: 20px;
 }
@@ -136,6 +137,7 @@
 
 .prize__list li {
   height: 4rem;
+  width: 100%;
   padding-block: 5px;
   color: #98aac5de;
   display: flex;
