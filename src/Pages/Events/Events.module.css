@@ -233,9 +233,9 @@ li::marker {
   }
 
   .submit .img {
-    left: 0.8rem;
+    left: 0.6rem;
   }
   .submit:hover img {
-    left: 0.8rem;
+    left: 0.6rem;
   }
 }
