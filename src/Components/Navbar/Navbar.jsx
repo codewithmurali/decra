@@ -7,10 +7,23 @@ import menu from "../../assets/menu.svg";
 
 const Navbar = () => {
   const [menuClick, setMenuClick] = useState(true);
+  const [navbarCom, setNavbarCom] = useState(false);
+
+  const changeBackground = () => {
+    if (window.scrollY > 0) {
+      setNavbarCom(true);
+    } else {
+      setNavbarCom(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBackground);
 
   return (
     <div
-      className={`${styles.navbar} ${commonStyles.outer__layout}`}
+      className={`${commonStyles.outer__layout} ${styles.navbar}  ${
+        navbarCom ? styles.navbar__active : styles.navbar__inactive
+      }`}
       id="navbar"
     >
       <img className={styles.navbar__logo} src={logo} />
