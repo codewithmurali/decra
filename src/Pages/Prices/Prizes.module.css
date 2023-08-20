@@ -136,7 +136,7 @@
 
 .prize__list li {
   height: 4rem;
-  padding: 5px;
+  padding-block: 5px;
   color: #98aac5de;
   display: flex;
   align-items: center;
@@ -152,7 +152,7 @@
     padding-inline: 1rem;
   }
   .prize__note {
-    width: 90%;
+    width: 80%;
     padding: 1rem;
     gap: 1rem;
   }
@@ -163,7 +163,7 @@
   }
   .prize__note {
     font-size: small;
-    padding: 5px;
+    padding: 7px;
     gap: 5px;
   }
   .prize > h3 {
