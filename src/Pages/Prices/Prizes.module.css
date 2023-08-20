@@ -94,7 +94,7 @@
 
 .prize__note {
   margin: auto;
-  padding: 0.6rem;
+  padding: 0.5rem;
   width: fit-content;
   color: #98aac5;
   background-color: #1e293b65;
@@ -160,6 +160,10 @@
     height: 350px;
     padding: 2rem;
   }
+  .prize__note {
+    padding: 5px;
+  }
+
   .prize__note > h3 {
     margin-block: 1rem;
   }
