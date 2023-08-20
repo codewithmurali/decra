@@ -16,7 +16,7 @@ const Prizes = () => {
       </p>
       <div className={styles.prize_container}>
         <div className={styles.prize}>
-          <h3 className={styles.subtitle}>Paper presentation </h3>
+          <h3 className={styles.subtitle}>Paper Presentation </h3>
           <ul className={styles.prize__list}>
             <li>
               <img src={FirstPrize} alt="First Prize" />

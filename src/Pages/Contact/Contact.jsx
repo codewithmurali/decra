@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Contact.module.css";
 import commonStyle from "../../commonStyles.module.css";
-import decra from "../../assets/logo.png";
+import LinkedIn from "../../assets/linkedin.svg";
 const Contact = () => {
   return (
     <div id="contact" className={styles.Contact}>
@@ -17,6 +17,12 @@ const Contact = () => {
       </div>
 
       <div className={styles.copyrights}>&#169; DECRA 2023</div>
+      <h5>
+        Developed by
+        <a href="https://www.linkedin.com/in/codewithmurali/">
+          <img src={LinkedIn} alt="" width={"14px"} height={"14px"} />
+        </a>
+      </h5>
     </div>
   );
 };
