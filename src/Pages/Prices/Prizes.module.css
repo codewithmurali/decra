@@ -161,11 +161,11 @@
     padding: 2rem;
   }
   .prize__note {
-    padding: 15px;
+    padding: 10px;
   }
 
   .prize__note > h3 {
-    margin-block: 1rem;
+    margin-block: 0.5rem;
   }
   .__note__ {
     height: fit-content;
