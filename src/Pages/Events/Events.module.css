@@ -181,7 +181,7 @@ li::marker {
 .submit:hover .send {
   position: absolute;
   transition: 0.6s;
-  left: 13rem;
+  left: 80%;
   right: 0.5rem;
 }
 
