@@ -152,6 +152,7 @@
     padding-inline: 1rem;
   }
   .prize__note {
+    width: 90%;
     padding: 1rem;
     gap: 1rem;
   }
