@@ -222,7 +222,7 @@ li::marker {
   }
 
   .submit {
-    width: 130%;
+    width: 135%;
     gap: 10px;
     text-align: center;
     font-size: medium;
@@ -233,9 +233,9 @@ li::marker {
   }
 
   .submit .img {
-    left: 0.6rem;
+    left: 0.5rem;
   }
   .submit:hover img {
-    left: 0.6rem;
+    left: 0.5rem;
   }
 }
