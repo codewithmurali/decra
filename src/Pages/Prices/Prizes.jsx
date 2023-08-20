@@ -6,7 +6,7 @@ import SecondPrize from "../../assets/silver-medal.svg";
 import ThirdPrize from "../../assets/bronze-medal.svg";
 const Prizes = () => {
   return (
-    <div className={styles.Prizes}>
+    <div className={`${commonStyles.outer__layout} ${styles.Prizes}`}>
       <h2 className={commonStyles.title}>Prizes</h2>
       <p className={`${commonStyles.description} ${styles.description}`}>
         Dear Participants for your information For technical symposium
