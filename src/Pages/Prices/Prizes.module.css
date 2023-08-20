@@ -154,7 +154,7 @@
   .prize__note {
     width: 90%;
     padding: 1rem;
-    gap: 1rem;
+    gap: 5px;
   }
   .prize {
     flex-grow: 1;
