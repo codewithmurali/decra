@@ -163,7 +163,7 @@
   }
   .prize__note {
     font-size: small;
-    padding: 7px;
+    padding-block: 5px;
     gap: 5px;
   }
   .prize > h3 {
