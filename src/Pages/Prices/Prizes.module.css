@@ -93,6 +93,7 @@
 }
 
 .prize__note {
+  width: 70%;
   margin: auto;
   padding: 0.5rem;
   width: fit-content;
@@ -104,7 +105,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
@@ -157,17 +157,17 @@
     width: 90%;
     padding: 1rem;
     gap: 5px;
+    flex-wrap: wrap;
+    font-size: small;
+    padding-block: 5px;
+    gap: 5px;
   }
   .prize {
     flex-grow: 1;
     height: 340px;
     padding: 2rem;
   }
-  .prize__note {
-    font-size: small;
-    padding-block: 5px;
-    gap: 5px;
-  }
+
   .prize > h3 {
     margin-block: 0.5rem;
   }

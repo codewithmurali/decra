@@ -7,15 +7,12 @@ import menu from "../../assets/menu.svg";
 
 const Navbar = () => {
   const [menuClick, setMenuClick] = useState(true);
-  const blurElement = document.querySelector("#blur");
-  let scrollTop;
-  const blurring = { backdropFilter: blur("10px") };
-  window.addEventListener("scroll", (event) => {
-    scrollTop = event.target.scrollTop;
-  });
 
   return (
-    <div className={`${styles.navbar} ${commonStyles.outer__layout}`} id="blur">
+    <div
+      className={`${styles.navbar} ${commonStyles.outer__layout}`}
+      id="navbar"
+    >
       <img className={styles.navbar__logo} src={logo} />
       <img
         src={menu}
@@ -34,6 +31,11 @@ const Navbar = () => {
         <li className={styles.navbar__item}>
           <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
             About
+          </Link>
+        </li>
+        <li className={styles.navbar__item}>
+          <Link to="prizes" spy={true} smooth={true} offset={50} duration={500}>
+            Prizes
           </Link>
         </li>
         <li className={styles.navbar__item}>
