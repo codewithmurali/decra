@@ -148,7 +148,9 @@
   .prize_container {
     width: 100%;
   }
-
+  .Prizes {
+    padding-inline: 1.5rem;
+  }
   .prize__note {
     padding: 1rem;
     gap: 1.5rem;
