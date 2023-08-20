@@ -7,7 +7,7 @@ const About = () => {
     <div className={`${commonStyles.outer__layout} ${styles.about}`} id="about">
       <div className={`${styles.card} ${commonStyles.common__card}`}>
         <h2 className={commonStyles.title}>About us</h2>
-        <div className={styles.description}>
+        <div className={commonStyles.description}>
           The Department commenced in the year 2007 with an intake of 60 in the
           undergraduate program (B.E) Electronics and Communication Engineering.
           In the year 2012, the post graduate program (M.E) commenced with an
@@ -22,7 +22,7 @@ const About = () => {
           competence to adapt to the latest transformations in technology.
         </div>
         <h2 className={commonStyles.title}>About Event</h2>
-        <div className={styles.description}>
+        <div className={commonStyles.description}>
           TEKCLUSTER`23 - ELEVENTH NATIONAL LEVEL TECHNICAL SYMPOSIUM on 26th
           AUG 2023
         </div>

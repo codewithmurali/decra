@@ -11,7 +11,7 @@ const Events = () => {
       id="events"
       className={`${styles.Events} ${commonStyles.outer__layout}`}
     >
-      <h1 className={commonStyles.title}>Events</h1>
+      <h2 className={commonStyles.title}>Events</h2>
       <div className={styles.cards}>
         {timelineElements.map((element) => {
           return (
@@ -83,7 +83,7 @@ const Events = () => {
               </li>
               <li>Maximum 3 Participant per Article</li>
               <li>
-                Only those seleted for Paper Presentation are permitted to
+                Only those selected for Paper Presentation are permitted to
                 participate in Events
               </li>
               <li>

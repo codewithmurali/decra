@@ -1,0 +1,125 @@
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: hsl(175, 55%, 40%);
+  --first-color-light: hsl(175, 30%, 48%);
+  --first-color-lighten: hsl(175, 40%, 62%);
+  --gradient-color: linear-gradient(
+    180deg,
+    hsl(178, 35%, 45%),
+    hsl(178, 55%, 28%)
+  );
+  --title-color: hsl(175, 40%, 16%);
+  --text-color: hsl(175, 8%, 50%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Poppins", sans-serif;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 0.938rem;
+  --smaller-font-size: 0.75rem;
+}
+
+/*=============== BASE ===============*/
+
+.Prizes {
+  padding: 3rem;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  color: var(--text-color);
+  border-bottom: solid 1px rgba(192, 192, 192, 0.18);
+}
+.description {
+  text-align: center;
+}
+
+.Prizes h2 {
+  margin-block: 2rem;
+}
+.Prizes h3 {
+  margin-block: 2rem;
+}
+.prize_container {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.prize__list {
+  list-style: none;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.prize__note {
+  margin: auto;
+  padding: 0.6rem;
+  width: fit-content;
+  color: #98aac5;
+  background-color: #1e293b65;
+  border: solid 1px rgba(192, 192, 192, 0.394);
+  border-radius: 8px;
+  backdrop-filter: blur(20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.__note__ {
+  color: rgb(244, 114, 182);
+  width: 32px;
+  height: 42px;
+  margin: 16px;
+  font-size: larger;
+  align-self: flex-start;
+  justify-self: flex-end;
+  transform: translateY(-2px);
+}
+.prize__note ul {
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.prize {
+  width: 325px;
+  height: 300px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  color: #98aac5de;
+  background-color: #1e293b65;
+  border-radius: 8px 8px 50% 50%;
+  backdrop-filter: blur(20px);
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5), -8px -8px 20px #354f7565,
+    inset 0.2em 0.2em 0.4em #354f7565,
+    inset -0.2em -0.2em 0.4em rgba(0, 0, 0, 0.5);
+}
+.prize > .subtitle {
+  color: rgb(0, 229, 255);
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+@media only screen and (min-width: 300px) and (max-width: 720px) {
+  .prize__note {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .prize__note > h3 {
+    margin-block: 1rem;
+  }
+  .__note__ {
+    height: fit-content;
+  }
+  .prize__note ul {
+    padding-left: 3rem;
+  }
+}

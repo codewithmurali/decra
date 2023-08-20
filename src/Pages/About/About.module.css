@@ -22,13 +22,6 @@
   bottom: 0;
 }
 
-.description {
-  font-size: 14px;
-  letter-spacing: 0.6px;
-  word-spacing: 5px;
-  color: #98aac5ce;
-}
-
 @media only screen and (min-width: 300px) and (max-width: 550px) {
   .about {
     min-height: 155vh;

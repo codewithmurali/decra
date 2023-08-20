@@ -42,6 +42,12 @@
   transform: translate(-50%, -50%);
 }
 
+.description {
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  word-spacing: 5px;
+  color: #98aac5ce;
+}
 .common__card {
   color: #5e6b7f;
   background-color: #1e293b65;
