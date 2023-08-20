@@ -157,7 +157,7 @@
   }
   .prize {
     flex-grow: 1;
-    height: 350px;
+    height: fit-content;
     padding: 2rem;
   }
   .prize__note {
