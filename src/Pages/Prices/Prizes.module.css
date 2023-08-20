@@ -23,13 +23,15 @@
 /*=============== BASE ===============*/
 
 .Prizes {
+  width: 100%;
   padding: 3rem;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--text-color);
+
   border-bottom: solid 1px rgba(192, 192, 192, 0.18);
 }
 .description {
+  color: #98aac5de;
   text-align: center;
 }
 
@@ -38,8 +40,10 @@
 }
 .Prizes h3 {
   margin-block: 1rem;
+  text-align: center;
 }
 .prize_container {
+  width: 100%;
   padding: 3rem;
   display: flex;
   align-items: center;
@@ -48,7 +52,7 @@
   gap: 3rem;
 }
 .prize {
-  width: 325px;
+  width: 310px;
   height: 330px;
   padding: 3rem;
   display: flex;
@@ -133,6 +137,7 @@
 .prize__list li {
   height: 4rem;
   padding: 5px;
+  color: #98aac5de;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -140,13 +145,17 @@
   font-size: medium;
 }
 @media only screen and (min-width: 300px) and (max-width: 720px) {
+  .prize_container {
+    width: 100%;
+  }
+
   .prize__note {
     padding: 1rem;
     gap: 1.5rem;
   }
   .prize {
-    width: 350px;
-    height: 360px;
+    flex-grow: 1;
+    height: 350px;
     padding: 2rem;
   }
   .prize__note > h3 {
