@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./Prizes.module.css";
 import commonStyles from "../../commonStyles.module.css";
-
+import FirstPrize from "../../assets/gold-medal.svg";
+import SecondPrize from "../../assets/silver-medal.svg";
+import ThirdPrize from "../../assets/bronze-medal.svg";
 const Prizes = () => {
   return (
     <div className={styles.Prizes}>
@@ -14,13 +16,16 @@ const Prizes = () => {
           <h3 className={styles.subtitle}>Paper presentation </h3>
           <ul className={styles.prize__list}>
             <li>
-              1st Prize - <span>3000</span>
+              <img src={FirstPrize} alt="First Prize" />
+              <span>3000</span>
             </li>
             <li>
-              2nd prize- <span>2000</span>
+              <img src={SecondPrize} alt="Second Prize" />
+              <span>2000</span>
             </li>
             <li>
-              3rd prize - <span>1000</span>
+              <img src={ThirdPrize} alt="Third Prize" />
+              <span>1000</span>
             </li>
           </ul>
         </div>
@@ -28,10 +33,12 @@ const Prizes = () => {
           <h3 className={styles.subtitle}>Reverse Engineering </h3>
           <ul className={styles.prize__list}>
             <li>
-              1st Prize - <span>500</span>
+              <img src={FirstPrize} alt="First Prize" />
+              <span>500</span>
             </li>
             <li>
-              2nd prize - <span>250</span>
+              <img src={SecondPrize} alt="Second Prize" />
+              <span>250</span>
             </li>
           </ul>
         </div>
@@ -39,10 +46,12 @@ const Prizes = () => {
           <h3 className={styles.subtitle}>Techspool</h3>
           <ul className={styles.prize__list}>
             <li>
-              1st Prize - <span>500</span>
+              <img src={FirstPrize} alt="First Prize" />
+              <span>500</span>
             </li>
             <li>
-              2nd prize - <span>250</span>
+              <img src={SecondPrize} alt="Second Prize" />
+              <span>250</span>
             </li>
           </ul>
         </div>

@@ -37,7 +37,7 @@
   margin-block: 2rem;
 }
 .Prizes h3 {
-  margin-block: 2rem;
+  margin-block: 1rem;
 }
 .prize_container {
   padding: 3rem;
@@ -47,15 +47,47 @@
   flex-wrap: wrap;
   gap: 3rem;
 }
+.prize {
+  width: 325px;
+  height: 330px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  color: #98aac5de;
+  background-color: #1e293b65;
+  border-radius: 8px 8px 175px 175px;
+  backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(192, 192, 192, 0.394);
+  border-inline: 1px solid rgba(192, 192, 192, 0.394);
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5), -8px -8px 20px #354f7565,
+    inset 0.2em 0.2em 0.4em #354f7565,
+    inset -0.2em -0.2em 0.4em rgba(0, 0, 0, 0.5);
+}
+.prize::after {
+  position: absolute;
+  content: " ";
+  width: 40px;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    rgb(247, 4, 77),
+    #6402f6,
+    rgb(32, 184, 240)
+  );
+  border-radius: 50px;
+  bottom: -4px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .prize__list {
+  padding: 5px;
   list-style: none;
   text-align: center;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 .prize__note {
   margin: auto;
   padding: 0.6rem;
@@ -71,6 +103,12 @@ img {
   flex-wrap: wrap;
   gap: 1.5rem;
 }
+
+.prize__list img {
+  width: 45px;
+  height: 45px;
+}
+
 .__note__ {
   color: rgb(244, 114, 182);
   width: 32px;
@@ -86,33 +124,30 @@ img {
   margin-right: 20px;
 }
 
-.prize {
-  width: 325px;
-  height: 300px;
-  padding: 3rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-  color: #98aac5de;
-  background-color: #1e293b65;
-  border-radius: 8px 8px 50% 50%;
-  backdrop-filter: blur(20px);
-  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5), -8px -8px 20px #354f7565,
-    inset 0.2em 0.2em 0.4em #354f7565,
-    inset -0.2em -0.2em 0.4em rgba(0, 0, 0, 0.5);
-}
 .prize > .subtitle {
   color: rgb(0, 229, 255);
   letter-spacing: 1px;
   word-spacing: 2px;
+}
+
+.prize__list li {
+  height: 4rem;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  font-size: medium;
 }
 @media only screen and (min-width: 300px) and (max-width: 720px) {
   .prize__note {
     padding: 1rem;
     gap: 1.5rem;
   }
-
+  .prize {
+    width: 325px;
+    height: 330px;
+  }
   .prize__note > h3 {
     margin-block: 1rem;
   }
