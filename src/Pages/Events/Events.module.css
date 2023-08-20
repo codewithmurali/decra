@@ -233,7 +233,7 @@ li::marker {
     font-size: x-small;
   }
 
-  .submit .img {
+  .submit img {
     left: 0.5rem;
   }
   .submit:hover img {

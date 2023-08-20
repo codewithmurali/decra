@@ -60,7 +60,7 @@ const Events = () => {
                       <img
                         className={styles.downloadIcon}
                         src={downloadIcon}
-                        alt="Download an abstract format"
+                        alt="Download abstract format"
                       />
                     </div>
                   </>
