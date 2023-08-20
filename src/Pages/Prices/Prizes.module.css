@@ -162,6 +162,7 @@
   }
   .prize__note {
     padding: 10px;
+    gap: 5px;
   }
 
   .prize__note > h3 {
