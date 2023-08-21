@@ -1,0 +1,23 @@
+.popup {
+  padding: 1rem;
+  text-align: center;
+  background-color: #0d1321;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-around;
+}
+.popup__msg {
+  color: aliceblue;
+}
+.cancel {
+  z-index: 1;
+  width: fit-content;
+  padding: 8px;
+  border: red 1px solid;
+  color: aliceblue;
+  cursor: pointer !important;
+}
+.popup__inactive {
+  display: none;
+}
