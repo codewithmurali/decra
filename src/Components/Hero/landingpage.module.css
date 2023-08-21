@@ -57,6 +57,9 @@
   font-size: clamp(25px, 5vw, 60px);
   color: aliceblue;
 }
+.sub__para {
+  text-align: center;
+}
 
 @keyframes animated_text {
   0% {

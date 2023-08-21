@@ -75,8 +75,9 @@ const Events = () => {
           <div className={styles.note_content}>
             <ul>
               <li>
-                Last Date for Submission of Papers{" "}
-                <span>AUGUST 20.08.2023</span>
+                We value the interest of "Young Minds". So we have extended the
+                paper submission date till{" "}
+                <span className={styles.date}>AUGUST 21.08.2023</span>
               </li>
               <li>
                 Acceptance Intimation on <span>AUGUST 22.08.2023</span>
