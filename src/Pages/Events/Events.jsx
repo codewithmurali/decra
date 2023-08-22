@@ -82,13 +82,13 @@ const Events = () => {
               <li>
                 Acceptance Intimation on <span>AUGUST 22.08.2023</span>
               </li>
-              <li>Maximum 3 Participant per Article</li>
+              <li>Maximum 3 Participants per Article</li>
               <li>
                 Only those selected for Paper Presentation are permitted to
                 participate in Events
               </li>
               <li>
-                Other than paper presentation students can participate only in
+                Other than paper presentation, students can participate only in
                 one other technical event.
               </li>
               <li>

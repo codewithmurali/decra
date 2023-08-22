@@ -11,9 +11,7 @@ const Prizes = () => {
       id="prizes"
     >
       <h2 className={commonStyles.title}>Prizes</h2>
-      <p className={`${commonStyles.description} ${styles.description}`}>
-        Dear Participants for your information For technical symposium
-      </p>
+
       <div className={styles.prize_container}>
         <div className={styles.prize}>
           <h3 className={styles.subtitle}>Paper Presentation </h3>
