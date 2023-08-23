@@ -35,7 +35,7 @@ const Navbar = () => {
           src={menu}
           alt="menu-bar"
           className={`${styles.menu__bar} ${
-            menuClick || styles.menu__bar__clicke
+            menuClick || styles.menu__bar__clicked
           }`}
           onClick={() => {
             setMenuClick(!menuClick);
