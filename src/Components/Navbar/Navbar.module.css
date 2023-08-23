@@ -48,6 +48,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .menu__bar {
   padding: 5px;
   display: none;
@@ -58,7 +59,7 @@
   border-radius: 50%;
   transition: 0.6s;
 }
-.menu__bar:hover {
+.menu__bar__clicked {
   border: 1px solid rgba(192, 192, 192, 0.799);
 }
 

@@ -27,14 +27,16 @@ const Navbar = () => {
       <div
         className={`${commonStyles.outer__layout} ${styles.navbar}  ${
           navbarCom ? styles.navbar__active : styles.navbar__inactive
-        }`}
+        }   `}
         id="navbar"
       >
         <img className={styles.navbar__logo} src={logo} />
         <img
           src={menu}
           alt="menu-bar"
-          className={styles.menu__bar}
+          className={`${styles.menu__bar} ${
+            menuClick || styles.menu__bar__clicked
+          }`}
           onClick={() => {
             setMenuClick(!menuClick);
           }}
