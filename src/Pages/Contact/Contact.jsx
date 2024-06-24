@@ -23,6 +23,12 @@ const Contact = () => {
           <img src={LinkedIn} alt="" width={"14px"} height={"14px"} />
         </a>
       </h5>
+      <h5>
+        Designed by
+        <a href="https://www.linkedin.com/in/codewithmurali/" target="_blank">
+          <img src={LinkedIn} alt="" width={"14px"} height={"14px"} />
+        </a>
+      </h5>
     </div>
   );
 };
