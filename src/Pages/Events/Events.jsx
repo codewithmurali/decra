@@ -1,7 +1,7 @@
 import React from "react";
 import timelineElements from "../../consts/TimelineElements";
 import styles from "./Events.module.css";
-import downloadIcon from "../../assets/download.svg";
+// import downloadIcon from "../../assets/download.svg";
 import abstract from "../../../public/Tekcluster_abstract_format.docx";
 import commonStyles from "../../commonStyles.module.css";
 // import send from "../../assets/send.svg";
@@ -54,14 +54,14 @@ const Events = () => {
                     </div>
 
                     <div className={`${styles.submit} ${styles.download} `}>
-                      <a href={abstract} download >
+                      <a href={abstract} download>
                         Download Abstract Format
                       </a>
-                      <img
+                      {/* <img
                         className={styles.downloadIcon}
                         src={downloadIcon}
                         alt="Download abstract format"
-                      />
+                      /> */}
                     </div>
                   </>
                 )}
