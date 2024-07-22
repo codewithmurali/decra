@@ -6,7 +6,7 @@
 }
 .card {
   height: fit-content;
-  text-align: justify;
+  text-align: center;
   width: 80%;
   padding: 3rem;
   display: flex;
@@ -39,6 +39,7 @@
     padding-bottom: 3.3rem;
   }
   .card {
+    
     padding: 2rem;
   }
 }
