@@ -61,6 +61,35 @@
   text-align: center;
 }
 
+.submit {
+  height: 36px;
+  margin-top: 10px;
+
+  padding: 0.3rem 1.3rem;
+  padding-left: 42px;
+  font-size: 16px;
+  border: 0.5px solid rgba(192, 192, 192, 0.33);
+  border-radius: 16px;
+  text-decoration: none;
+  border-radius: 1.2em;
+  background-color: #6402f6;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.icon svg {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.submit:hover .icon svg {
+  opacity: 1;
+}
+
 @keyframes animated_text {
   0% {
     background-position: 0px 50%;
