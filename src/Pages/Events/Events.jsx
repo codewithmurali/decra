@@ -4,7 +4,7 @@ import styles from "./Events.module.css";
 import downloadIcon from "../../assets/download.svg";
 import abstract from "../../../public/Tekcluster_abstract_format.docx";
 import commonStyles from "../../commonStyles.module.css";
-import send from "../../assets/send.svg";
+// import send from "../../assets/send.svg";
 const Events = () => {
   return (
     <div
@@ -43,11 +43,11 @@ const Events = () => {
                 {element.id == 1 && (
                   <>
                     <div className={styles.submit}>
-                      <img
+                      {/* <img
                         className={styles.send}
                         src={send}
                         alt="send a mail"
-                      />
+                      /> */}
                       <a href="mailto: tekclusterece18@gmail.com">
                         Send Your Abstract
                       </a>
