@@ -23,8 +23,7 @@ const About = () => {
         </div>
         <h2 className={commonStyles.title}>About Event</h2>
         <div className={commonStyles.description}>
-          TEKCLUSTER`23 - ELEVENTH NATIONAL LEVEL TECHNICAL SYMPOSIUM on 26th
-          AUG 2023
+          TEKCLUSTER`24 - ELEVENTH NATIONAL LEVEL TECHNICAL SYMPOSIUM on <span className={styles.date}>22nd - 23rd Mar 2024</span>
         </div>
       </div>
     </div>

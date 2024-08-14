@@ -185,11 +185,11 @@ li::marker {
   left: 80%;
   right: 0.5rem;
 }
+
 .date {
   font-size: large;
   color: rgb(237, 42, 143);
 }
-
 @media only screen and (min-width: 300px) and (max-width: 720px) {
   .Events {
     width: 100%;

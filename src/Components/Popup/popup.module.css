@@ -21,3 +21,6 @@
 .popup__inactive {
   display: none;
 }
+.date {
+  color: rgb(237, 42, 143);
+}

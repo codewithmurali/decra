@@ -77,12 +77,12 @@ const Events = () => {
               <li>
                 We value the interest of "Young Minds". So we have extended the
                 paper submission date till{" "}
-                <span className={styles.date}>AUGUST 21.08.2023</span>
+                <span className={styles.date}> 21.03.2024</span>
               </li>
               <li>
-                Acceptance Intimation on <span>AUGUST 22.08.2023</span>
+                Acceptance Intimation on <span className={styles.date}> 22.03.2024</span>
               </li>
-              <li>Maximum 3 Participants per Article</li>
+              <li>Maximum <span className={styles.date} >3</span> Participants per Article</li>
               <li>
                 Only those selected for Paper Presentation are permitted to
                 participate in Events
