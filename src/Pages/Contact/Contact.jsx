@@ -16,7 +16,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className={styles.copyrights}>&#169; DECRA 2023</div>
+      <div className={styles.copyrights}>&#169; DECRA 2024</div>
       <h5>
         Developed by
         <a href="https://www.linkedin.com/in/codewithmurali/" target="_blank">
